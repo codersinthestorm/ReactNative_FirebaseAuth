@@ -15,12 +15,12 @@ export default class App extends Component {
 
     componentWillMount() {
         firebase.initializeApp({
-                apiKey: 'AIzaSyDUXoIgC9ECmLdD0bjvPjcuBV3g4pi47CA',
-                authDomain: 'authentication-5548a.firebaseapp.com',
-                databaseURL: 'https://authentication-5548a.firebaseio.com',
-                projectId: 'authentication-5548a',
-                storageBucket: 'authentication-5548a.appspot.com',
-                messagingSenderId: '1060426134810'
+                apiKey: '#',
+                authDomain: '#',
+                databaseURL: '#',
+                projectId: '#',
+                storageBucket: '#',
+                messagingSenderId: '#'
         });
 
         firebase.auth().onAuthStateChanged((user) => {
